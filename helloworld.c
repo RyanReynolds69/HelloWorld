@@ -1,11 +1,16 @@
 #include <stdio.h>
 
-int main()
+void helloWorld()
 {
     printf("Hello, World!\n");
     printf("Dab on it Wagwan");
     printf("( . Y . )\n");
     printf("goodbye world\n");
+}
+
+int main()
+{
+    helloWorld();
 
     return 0;
 }
